@@ -1,0 +1,116 @@
+@font-face {
+        font-family: "Inter";
+        src: url('assets/fonts/Inter-VariableFont_slnt,wght.ttf') format("ttf");
+    }
+    
+body{
+    background-color: #FFFFFD;
+    margin: 0;
+    padding: 0;
+    padding-left: 50px;
+    padding-left: 50px;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+nav{
+    position: fixed;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    padding-right: 400px;
+}
+
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: #17171780;
+    font-size: large;
+    font-weight: bold;
+
+    justify-content: center;
+    margin: auto;
+    flex: 1 0 80px;
+
+}
+
+
+main{
+    padding-top: 140px;
+}
+
+
+
+h1{
+    font-size: 75px;
+    text-align: left;
+    color: #212121;
+}
+
+.marseille{
+    text-decoration: underline;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.imgAcc{
+    height: 756px;
+    width: 572px;
+}
+
+
+
+#divGIF{
+    background-color: #F4F4F4;
+    height: 756px;
+    width: 572px;
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+.gif1{
+    align-content: center;
+    height: 405px;
+    width: 251px;
+    padding-top: 30%;
+}
+
+
+footer{
+    bottom: 0;
+    height: 60px;
+    margin-right: 40px;
+    text-decoration: none;
+
+}
+.footer1{
+    color: #212121;
+    text-decoration: none;
+    float: left;
+}
+
+.footer2{
+
+    color: #8E8E8E;
+    text-decoration: none;
+    float: right;
+}
+
+
+.letswork{
+    position: sticky;
+    bottom: 0;
+    left:0;
+}
