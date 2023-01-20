@@ -3,20 +3,21 @@
   src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("ttf");
 }
 
+html {
+  cursor: none;
+}
 body {
   background-color: #fffffd;
   margin: 0;
   padding: 0;
   padding-left: 50px;
-  padding-left: 50px;
+  padding-right: 50px;
   font-family: "Inter", sans-serif;
-  /* cursor: none; */
 }
 
 nav {
   position: fixed;
   margin-top: 30px;
-
   display: flex;
   flex-direction: row;
 }
@@ -36,17 +37,8 @@ nav a {
   margin: auto;
   flex: 1 0 80px;
 }
+
 nav a:hover {
-  color: #212121;
-}
-
-main {
-  padding-top: 140px;
-}
-
-h1 {
-  font-size: 75px;
-  text-align: left;
   color: #212121;
 }
 
@@ -54,52 +46,38 @@ h1 {
   text-decoration: underline;
 }
 
-.row {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-  margin-bottom: 30px;
+h1 {
+  font-size: 75px;
+  text-align: left;
 }
 
-.imgAcc {
-  height: 756px;
-  width: 572px;
+main {
+  padding-top: 140px;
+  margin-left: 84px;
+  font-size: 26px;
 }
 
-#divGIF {
-  background-color: #f4f4f4;
-  height: 756px;
-  width: 572px;
-
-  text-align: center;
-  vertical-align: middle;
+.text {
+  font-size: 26px;
+  text-align: left;
+  margin-bottom: 100px;
 }
 
-.gif1 {
-  align-content: center;
-  height: 405px;
-  width: 251px;
-  padding-top: 30%;
+.mail {
+  color: aliceblue;
+  text-decoration: underline;
 }
 
-.zoom:hover {
-
-    will-change: transform;
-	transform: translate3d(0, 0, 1px);
-	backface-visibility: hidden;
-    transition: transform 0.3s;
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari 3-8 */
-  }
-
-.ptiteEnc {
-  position: relative;
-  bottom: 0;
+.contact {
+  font-size: 26px;
+  color: #ffffffff;
 }
+
 footer {
+  position: absolute;
   bottom: 0;
   height: 60px;
-  margin-right: 40px;
+  width: 95%;
 }
 .footer1 {
   color: #212121;
@@ -118,10 +96,12 @@ footer {
   right: 60px;
 }
 
+.letsworkLogo {
+  height: 249px;
+  width: 249px;
+}
 
-
-/* cursor 
-
+/* cursor */
 
 #main-cursor {
   background-color: rgb(243, 165, 217);
@@ -144,9 +124,7 @@ footer {
 }
 
 #follow-cursor .active {
-    transform: scale(4);
-    mix-blend-mode: difference;
-    background-color: #fff;
-  }
-
-*/
+  transform: scale(4);
+  mix-blend-mode: difference;
+  background-color: #fff;
+}
