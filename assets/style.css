@@ -10,7 +10,7 @@ body {
   padding-left: 50px;
   padding-left: 50px;
   font-family: "Inter", sans-serif;
-  /* cursor: none; */
+  cursor: none; 
 }
 
 nav {
@@ -120,7 +120,7 @@ footer {
 
 
 
-/* cursor 
+/* cursor */
 
 
 #main-cursor {
@@ -149,4 +149,3 @@ footer {
     background-color: #fff;
   }
 
-*/
