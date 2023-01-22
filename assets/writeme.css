@@ -17,7 +17,7 @@ body {
   color: #ffffffff;
   height: 1vh;
 }
-
+/* *************** navbar *************** */
 nav {
   position: fixed;
   margin-top: 30px;
@@ -41,6 +41,7 @@ nav a {
   flex: 1 0 80px;
 }
 
+/* *************** main *************** */
 .underline {
   text-decoration: underline;
 }
@@ -70,7 +71,7 @@ main {
   font-size: 26px;
   color: #ffffffff;
 }
-
+/* *************** footer *************** */
 footer {
   position: absolute;
   bottom: 0;
@@ -99,7 +100,7 @@ footer {
   width: 249px;
 }
 
-/* cursor */
+/* *************** cursor *************** */
 
 #main-cursor {
   background-color: rgb(243, 165, 217);

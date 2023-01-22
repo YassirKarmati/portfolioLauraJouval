@@ -15,6 +15,8 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+/* *************** navbar *************** */
+
 nav {
   position: fixed;
   margin-top: 30px;
@@ -42,6 +44,8 @@ nav a:hover {
   color: #212121;
 }
 
+/* *************** main *************** */
+
 .underline {
   text-decoration: underline;
 }
@@ -63,15 +67,44 @@ main {
   margin-bottom: 100px;
 }
 
+.imgLaura {
+  float: right;
+  margin-right: 300px;
+}
+
 .mail {
   color: aliceblue;
   text-decoration: underline;
+}
+
+.imgLaura {
+  width: 284px;
+  height: 378px;
+}
+
+.links {
+  color: black;
 }
 
 .contact {
   font-size: 26px;
   color: #ffffffff;
 }
+.underline {
+  text-decoration: underline;
+}
+
+.zoom:hover {
+
+  will-change: transform;
+transform: translate3d(0, 0, 1px);
+backface-visibility: hidden;
+  transition: transform 0.3s;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+}
+
+/* *************** footer *************** */
 
 footer {
   position: absolute;

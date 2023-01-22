@@ -12,7 +12,7 @@ body {
   font-family: "Inter", sans-serif;
   cursor: none; 
 }
-
+/* *************** navbar *************** */
 nav {
   position: fixed;
   margin-top: 30px;
@@ -39,6 +39,8 @@ nav a {
 nav a:hover {
   color: #212121;
 }
+
+/* *************** main *************** */
 
 main {
   padding-top: 140px;
@@ -96,6 +98,10 @@ h1 {
   position: relative;
   bottom: 0;
 }
+
+/*  *************** footer *************** */
+
+
 footer {
   bottom: 0;
   height: 60px;
@@ -120,7 +126,7 @@ footer {
 
 
 
-/* cursor */
+/* *************** cursor *************** */
 
 
 #main-cursor {
