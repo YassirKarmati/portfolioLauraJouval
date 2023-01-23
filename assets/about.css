@@ -18,26 +18,22 @@ body {
 /* *************** navbar *************** */
 
 nav {
-  position: fixed;
   margin-top: 30px;
-  display: flex;
-  flex-direction: row;
+  width: 100%;
 }
 
-.logo {
-  padding-right: 400px;
+.navLinks{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
 }
 
 nav a {
   text-decoration: none;
-  text-align: center;
   color: #17171780;
   font-size: large;
   font-weight: bold;
-
-  justify-content: center;
-  margin: auto;
-  flex: 1 0 80px;
+  padding: 12px;
 }
 
 nav a:hover {
@@ -53,6 +49,8 @@ nav a:hover {
 h1 {
   font-size: 75px;
   text-align: left;
+  
+  font-weight: lighter;
 }
 
 main {
@@ -104,10 +102,13 @@ backface-visibility: hidden;
   -webkit-transform: scale(1.1); /* Safari 3-8 */
 }
 
+.cv{
+  font-size: 36px;
+}
+
 /* *************** footer *************** */
 
 footer {
-  position: absolute;
   bottom: 0;
   height: 60px;
   width: 95%;

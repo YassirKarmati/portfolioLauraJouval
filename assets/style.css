@@ -14,28 +14,24 @@ body {
 }
 /* *************** navbar *************** */
 nav {
-  position: fixed;
   margin-top: 30px;
-
-  display: flex;
-  flex-direction: row;
+  width: 100%;
 }
 
-.logo {
-  padding-right: 400px;
+.navLinks{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
 }
 
 nav a {
   text-decoration: none;
-  text-align: center;
   color: #17171780;
   font-size: large;
   font-weight: bold;
-
-  justify-content: center;
-  margin: auto;
-  flex: 1 0 80px;
+  padding: 12px;
 }
+
 nav a:hover {
   color: #212121;
 }
@@ -43,12 +39,13 @@ nav a:hover {
 /* *************** main *************** */
 
 main {
-  padding-top: 140px;
+  padding-top: 60px;
   padding-right: 50px;
 }
 
 h1 {
   font-size: 75px;
+  font-weight: lighter;
   text-align: left;
   color: #212121;
 }
