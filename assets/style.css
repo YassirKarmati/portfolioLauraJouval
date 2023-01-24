@@ -3,21 +3,31 @@
   src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("ttf");
 }
 
+html{
+    cursor: none; 
+}
+
 body {
   background-color: #fffffd;
   margin: 0;
   padding: 0;
   padding-left: 50px;
-  padding-left: 50px;
+  padding-right: 50px;
   font-family: "Inter", sans-serif;
-  cursor: none; 
 }
+
 /* *************** navbar *************** */
 nav {
   margin-top: 30px;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
+.logo{
+  width: 186px;
+  height: 29px;
+}
 .navLinks{
   display: flex;
   justify-content: flex-end;
@@ -27,8 +37,7 @@ nav {
 nav a {
   text-decoration: none;
   color: #17171780;
-  font-size: large;
-  font-weight: bold;
+  font-size: 26px;
   padding: 12px;
 }
 
@@ -45,11 +54,16 @@ main {
   padding-right: 50px;
 }
 
+main img{
+  z-index: 1;
+}
+
 h1 {
   font-size: 75px;
   font-weight: lighter;
   text-align: left;
   color: #212121;
+  padding-bottom: 150px;
 }
 
 .underline {
@@ -75,26 +89,34 @@ h1 {
   background-color: #f4f4f4;
   height: 756px;
   width: 572px;
-
   text-align: center;
 }
 
 .gif1 {
   align-content: center;
-
   padding-top: 30%;
 }
 
 .zoom:hover {
-
-    will-change: transform;
+  
+  will-change: transform;
 	transform: translate3d(0, 0, 1px);
 	backface-visibility: hidden;
-    transition: transform 0.3s;
-    -ms-transform: scale(1.08); /* IE 9 */
-    -webkit-transform: scale(1.08); /* Safari 3-8 */
+  transition: transform 1s ease-in-out;
+  -ms-transform: scale(1.08); /* IE 9 */
+  -webkit-transform: scale(1.08); /* Safari 3-8 */
   }
 
+  .zoom-image {
+    overflow: hidden;
+  }
+
+  .zoom-image img:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+  }
 .ptiteEnc {
   position: relative;
   bottom: 0;
@@ -127,12 +149,15 @@ footer {
 
 .letswork {
   position: fixed;
-  bottom: 60px;
-  right: 60px;
+  bottom: 50px;
+  right: 93px;
   
 }
 
-
+.letsworkLogo {
+  height: 249px;
+  width: 249px;
+}
 
 /* *************** cursor *************** */
 
@@ -144,6 +169,7 @@ footer {
   border-radius: 50%;
   pointer-events: none;
   position: absolute;
+  z-index: 2;
 }
 
 #follow-cursor {
@@ -161,5 +187,6 @@ footer {
     transform: scale(4);
     mix-blend-mode: difference;
     background-color: #fff;
+    position: absolute;
   }
 
