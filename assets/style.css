@@ -37,7 +37,9 @@ nav a:hover {
 }
 
 /* *************** main *************** */
-
+a{
+  cursor: none;
+}
 main {
   padding-top: 60px;
   padding-right: 50px;

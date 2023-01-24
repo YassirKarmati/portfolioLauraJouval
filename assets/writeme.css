@@ -42,6 +42,9 @@ nav a:hover {
 }
 
 /* *************** main *************** */
+a{
+  cursor: none;
+}
 .underline {
   text-decoration: underline;
 }
