@@ -92,8 +92,9 @@ footer {
 
 .letswork {
   position: fixed;
-  bottom: 60px;
-  right: 60px;
+  bottom: 50px;
+  right: 50px;
+  transform: translate(-50%, -50%);
 }
 
 .letsworkLogo {

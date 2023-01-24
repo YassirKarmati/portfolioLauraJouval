@@ -103,9 +103,42 @@ backface-visibility: hidden;
 }
 
 .cv{
+  margin-top: 200px;
+}
+
+.componentCV{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+  
+.titleCV{
   font-size: 36px;
 }
 
+.textCV1{
+  font-size: 32px;
+  padding-right: 220px;
+  text-align: start;
+}
+
+.textCV2{
+  font-size: 32px;
+ padding-right: 400px;
+  text-align: start;
+}
+
+.textCV3{
+  font-size: 32px;
+  padding-right: 245px;
+  text-align: start;
+}
+
+.dateCV{
+  font-size: 58px;
+  
+}
 /* *************** footer *************** */
 
 footer {
@@ -126,8 +159,8 @@ footer {
 
 .letswork {
   position: fixed;
-  bottom: 60px;
-  right: 60px;
+  bottom: 50px;
+  right: 50px;
 }
 
 .letsworkLogo {

@@ -75,7 +75,6 @@ h1 {
   width: 572px;
 
   text-align: center;
-  vertical-align: middle;
 }
 
 .gif1 {
@@ -128,6 +127,7 @@ footer {
   position: fixed;
   bottom: 60px;
   right: 60px;
+  
 }
 
 
